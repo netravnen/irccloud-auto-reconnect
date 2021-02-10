@@ -67,7 +67,7 @@ function embedStyle() {
 }
 
 function createMenu() {
-  return $('<div id="ar-bar" class="settingsMenu__item settingsMenu__item__autoreconnect"><a class="settingsMenu__link" href="#?/settings=autoreconnect">Auto Reconnect</a></div>').insertAfter('.settingsContainer .settingsMenu .settingsMenu__item:last');
+  return $('<div id="ar-bar" class="settingsMenu__item settingsMenu__item__autoreconnect"><a class="settingsMenu__link" href="/?/settings=autoreconnect">Auto Reconnect</a></div>').insertAfter('.settingsContainer .settingsMenu .settingsMenu__item:last');
 }
 
 function createContainer() {
